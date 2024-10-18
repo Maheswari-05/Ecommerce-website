@@ -167,14 +167,13 @@ nav a:hover {
     color: #333;
 }
 
-/* Testimonials Section Styling */
+
 .testimonials {
     padding: 80px 0;
 
     text-align: center;
   }
-  
-  /* Title Styling */
+ 
   .testimonials h2 {
     font-size: 2.5em;
     color: #333;
@@ -182,7 +181,7 @@ nav a:hover {
     letter-spacing: 1px;
   }
   
-  /* Testimonial Section */
+
   .testimonial-section {
     display: flex;
     flex-direction: column;
@@ -192,7 +191,7 @@ nav a:hover {
     font-family: 'Poppins', sans-serif;
   }
   
-  /* Individual Testimonial */
+  
   .testimonial {
     display: flex;
     flex-direction: column;
@@ -212,7 +211,7 @@ nav a:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   }
   
-  /* Testimonial Text Styling */
+ 
   .testimonial-text {
     font-style: italic;
     color: #555;
@@ -223,7 +222,6 @@ nav a:hover {
     z-index: 1;
   }
   
-  /* Author Info */
   .testimonial-author {
     display: flex;
     align-items: center;
