@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: rgb(250, 215, 119);
 }
 
 nav {
@@ -44,13 +44,55 @@ nav a:hover {
 }
 
 .nav-icon {
+    position: relative;
     display: flex;
-    gap: 20px;
+    align-items: center;
+}
+
+.nav-icon input[type="text"] {
+    padding: 8px 60px 8px 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
 }
 
 .nav-icon a {
-    font-size: 20px;
-    color:black;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    text-decoration: none;
+}
+
+nav > div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav > div:last-child a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > div:last-child a:hover {
+    color: black;
+    
+}
+nav > div:last-child button {
+    padding: 8px 16px;
+    background-color: white;
+    color: rgb(246, 43, 84);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+nav > div:last-child button:hover {
+    background-color: black;
 }
 
 .hero {
@@ -59,7 +101,7 @@ nav a:hover {
     justify-content: space-between;
     min-height: 100vh;
     padding: 70px 5% 0;
-    background-color: #fff;
+    background-color: rgb(250, 215, 119);
 }
 
 .hero-content {
@@ -107,7 +149,11 @@ nav a:hover {
 .hero-image img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
+/* Rest of the CSS remains the same */
 
 .products {
     padding: 4rem 5%;
@@ -253,7 +299,7 @@ nav a:hover {
   }
   
   footer {
-    background: linear-gradient(135deg, #f03482 0%,#ebf06f 100%);
+    background: linear-gradient(135deg, rgb(246, 43, 84)0%,#ebf06f 100%);
     color: white;
     padding: 20px;
     text-align: center;
